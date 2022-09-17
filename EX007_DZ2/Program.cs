@@ -23,4 +23,3 @@ Console.WriteLine();
 Console.WriteLine("Введите коэффициент масштабирования: ");
 double n = double.Parse(Console.ReadLine() ?? "0");
 PrintImage(matrix, n);
-
